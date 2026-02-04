@@ -7,6 +7,7 @@ import './styles/App.css'
 
 function App() {
   // Lifting state up to the parent component
+  // check
   const [infoData, setInfoData] = useState({ fullName: "", email: "", phoneNumber: "" });
   const [eduData, setEduData] = useState({ schoolName: "", title: "", date: "" });
   const [expData, setExpData] = useState({ companyName: "", positionTitle: "", mainResponsibilities: "", date: "" });
